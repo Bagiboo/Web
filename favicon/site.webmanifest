@@ -1,0 +1,14 @@
+{
+    "name": "WTW",
+    "short_name": "WTW",
+    "icons": [
+        {
+            "src": "/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#cabbaf",
+    "background_color": "#cabbaf",
+    "display": "standalone"
+}
