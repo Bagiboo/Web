@@ -103,8 +103,10 @@ h1 {
 .menu-nav li {
     display:inline-block;
     padding: 30px;
-    margin-left: 150px;
+    margin-left: 170px;
     transition: color .2s linear;
+    margin-bottom: -17px;
+    height: 100px;
 }
 .menu-nav li:hover {
     display:inline-block;
@@ -112,7 +114,7 @@ h1 {
 }
 .menu-nav li a {
     display: inline-block;
-    padding: 30px;
+    padding: 10px;
 }
 .form-group {
     margin-bottom: 20px;
@@ -534,4 +536,9 @@ footer {
 .btn:disabled {
     background-color: var(--line-border-empty);
     cursor: not-allowed;
+}
+.moviesTop {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }

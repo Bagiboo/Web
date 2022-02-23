@@ -1,8 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCKTYPE html>
+<html lang='en'>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -37,42 +40,42 @@
               <menu class="menu-nav">
                <li><a class = "nav-link" href="C:\Program Files (x86)\Brackets\samples\root\Getting Started/index.html" >MainPage</a></li>
                <li><a class = "nav-link" href="C:\Program Files (x86)\Brackets\samples\root\Getting Started/Catalog.html" >Catalog</a></li>
-               <li><a class = "nav-link" href="C:\Program Files (x86)\Brackets\samples\root\Getting Started/Top.html" >Top100</a></li>
+               <li><a class = "nav-link" href="C:\Program Files (x86)\Brackets\samples\root\Getting Started/Top.html" >Top250</a></li>
                <li><a class = "nav-link" href="#" >About </a></li>
             </menu>
         </nav>
             </div>
         </div>
     </header>
-    <div class="container-mt-5">
-        <div class="row">
-            <div class="col-lg-4">
-                <form action="#">
-                    <div class="form-group">
-                        <input type="text" id="Genre" class="form-control" required>
-                        <label for="Genre">Genre</label>
-                    </div>
-                    <div class="form-group">
-                        <input type="number" id="year" class="form-control" required>
-                        <label for="year">Year</label>
-                    </div>
-                    <div class="text-center">
-                        <button type="button" class="btn-main" id="butonchik">Randomize</button>
-                    </div>
-                </form>
+    <section class="section section-catalog">
+    <div class="container-ct">
+        <header class="section_header">
+            <h2 class="section_tittle section_tittle-accent">TOP 250</h2>
+            <nav class="catalog-nav">
+            </nav>
+        </header>
+        <div class="catalog">
+         <div class="catalog-item">
+                <div class="moviesTop">
+                </div>
             </div>
-        </div>
     </div>
-    <div class="Random">
-        <div class="Random-movie">
-               <div class="RMovie">
-               </div>
-           </div>
-   </div>
-    <section >
-    
+        </div>
     </section>
     <footer>
+        <div class="container-pagination">
+            <div class="progress-container">
+                <div class="progress" id="progress"></div>
+                <div class="circle active">1</div>
+                <div class="circle">2</div>
+                <div class="circle">3</div>
+                <div class="circle">4</div>
+                <div class="circle">5</div>
+            </div>
+            <button class="btn" id="prev" disabled>Prev</button>
+            <button class="btn" id="next">Next</button>
+        </div>
+    
 
     
 
